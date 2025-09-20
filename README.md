@@ -24,8 +24,6 @@ That night, she opened her laptop in a dark corner of the walk-in fridge and, us
 
 It's a humble start. But Lane has bigger dreams. That's where you come in...
 
----
-
 ## Feature Requests
 
 Lane knows what she wants, but she's never built software before. Here's her list of ideas, straight from her notes app between shifts:
@@ -55,8 +53,6 @@ Lane knows what she wants, but she's never built software before. Here's her lis
   “I spent all my time getting the little chef logo to wink, and didn’t spend enough time making the app actually look and work great!”
 
 She knows it's possible. She just needs help.
-
----
 
 ## Instructions
 
@@ -93,20 +89,38 @@ You may use AI for this assessment to assist with coding and features; however, 
 - Concise and clearly documented
 - Free of AI fluff like unnecessary comments, overly abstracted logic, or verbose boilerplate.
 
----
-
 ## App Setup
 
-The app is scaffolded using:
+### Prerequisites
+
+- Node.js (recommended: latest LTS version)
+- Package manager: pnpm (preferred) or npm
+
+### Basic Setup & Running
+
+```
+# Install dependencies
+pnpm install
+
+# Run development server
+pnpm dev
+
+# Alternative: Run with npm
+npm install
+npm run dev
+```
+
+The app uses:
 
 - **Next.js (App Router)**
+- **TypeScript**
 - **Tailwind CSS, CVA, & Tailwind Merge**
 - **PGLite DB**
 - **ESLint & Prettier**
 
 You may remove, replace, or add any libraries/tools as needed.
 
-## Working with the Database
+### Working with the Database
 
 The app uses **PGLite DB** for local database management, which is a lightweight SQL database designed for use in web applications. Note that the data is only stored locally, this means the database will persist in your browser but won’t sync across devices or reloads unless implemented manually.
 
@@ -134,28 +148,22 @@ The `DevTools` component located in `src/components/dev-tools.tsx` provides a si
 
 - **Database Info**: The panel displays current database statistics, such as the number of tables and recipes.
 
----
-
-## Example Data
+### Example Data
 
 We’ve pre-populated the app with a few ramblings and recipes from Chef Marvin, these can be found in `src/chef-ramblings`
 
 We encourage you to add some favorites of your own.
-
----
 
 ## Submission
 
 When you're ready, please either:
 
 1. Share a GitHub link (public or private, just make sure we have access),
-2. Record a short walkthrough video if helpful (Loom, CleanShot, etc.), and
+2. Record a short walkthrough video if helpful (Loom, CleanShot, etc.)
 3. Let us know/document what you'd focus on next if you had more time.
 
 We'll review your submission, ask questions via Slack, and provide feedback.
 
 Assuming the submission meets the requirements for the open position, we'll schedule a technical walkthrough with the team.
 
----
-
-We’re excited to see what you come up with. And on behalf of Lane and the team at Craft—thank you for helping restore a little sanity to the kitchen.
+**We’re excited to see what you come up with. And on behalf of Lane and the team at Craft—thank you for helping restore a little sanity to the kitchen.**
