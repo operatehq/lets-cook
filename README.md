@@ -1,4 +1,4 @@
-# 🍳 Craft › Recipe Manager
+# Let's Cook › Recipe Manager
 
 ## 📖 Table of Contents
 
@@ -48,6 +48,8 @@ That night, she opened her laptop in a dark corner of the walk-in fridge and, us
 
 It's a humble start. But Lane has bigger dreams. **That's where you come in...**
 
+---
+
 ## Feature Requests
 
 Lane knows what she wants, but she's never built software before. Here's her list of ideas, straight from her notes app between shifts:
@@ -84,9 +86,9 @@ Lane knows what she wants, but she's never built software before. Here's her lis
 
 > _"I spent all my time getting the little chef logo to wink, and didn't spend enough time making the app actually look and work great!"_
 
----
-
 She knows it's possible. She just needs help.
+
+---
 
 ## Instructions
 
@@ -122,6 +124,8 @@ You may use AI for this assessment to assist with coding and features; however, 
 - Explainable
 - Concise and clearly documented
 - Free of AI fluff like unnecessary comments, overly abstracted logic, or verbose boilerplate.
+
+---
 
 ## App Setup
 
@@ -190,6 +194,8 @@ The `DevTools` component located in `src/components/dev-tools.tsx` provides a si
 We've pre-populated the app with a few ramblings and recipes from Chef Marvin, these can be found in `src/chef-ramblings`
 
 **We encourage you to add some favorites of your own!**
+
+---
 
 ## Submission
 
